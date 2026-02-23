@@ -1,0 +1,17 @@
+# Alternative data sources for production trading
+# Uncomment and install based on your broker/data provider
+
+# MetaTrader 5 (Popular for forex/commodities)
+# MetaTrader5==5.0.45
+
+# OANDA API (Forex/CFD broker)
+# v20==3.0.25.0
+
+# Interactive Brokers
+# ib_insync==10.19.1
+
+# Polygon.io (Stocks/Forex)
+# polygon-io==1.11.1
+
+# Alpha Vantage
+# alpha-vantage==3.0.0
