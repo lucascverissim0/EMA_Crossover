@@ -1,0 +1,12 @@
+WALK-FORWARD FTMO SUMMARY
+============================================================
+Folds: 12
+OOS Trades: 643
+OOS Total P&L: $29102.77
+OOS Return: 291.03%
+OOS Max Drawdown: 17.54%
+OOS Worst Daily Loss: -2.69%
+OOS Win Rate: 25.82%
+OOS Profit Factor: 1.77
+FTMO Pass (OOS): NO
+Monte Carlo Pass Probability (OOS trades): 25.00%

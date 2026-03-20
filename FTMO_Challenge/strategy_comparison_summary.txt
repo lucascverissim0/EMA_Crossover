@@ -1,0 +1,59 @@
+STRATEGY COMPARISON SUMMARY
+========================================================================================
+Metrics include Monte Carlo challenge pass probability with FTMO constraints.
+
+Track A - Capital Preservation
+----------------------------------------------------------------------------------------
+Validation method: Historical backtest (non-WFV)
+Backtest period: 2016-02-23 15:52:59.537274 -> 2026-02-17 04:52:59.537274
+Walk-forward period: N/A -> N/A
+Profit factor: 1.90
+Sharpe ratio (daily annualized): 2.36
+Challenge pass probability: 5.67%
+Step 1 avg time: 9.51 days (11.25 trades)
+Step 2 avg time: 13.63 days (16.12 trades)
+Max drawdown: 11.65%
+Total equity: $285147.31
+Total trades: 2171
+
+Track B - Walk-Forward Robust
+----------------------------------------------------------------------------------------
+Validation method: Walk-forward OOS
+Backtest period: 2017-02-23 02:52:59.537274 -> 2026-02-17 04:52:59.537274
+Walk-forward period: 2017-02-22 13:52:59.537274 -> 2026-02-20 12:52:59.537274
+Profit factor: 1.69
+Sharpe ratio (daily annualized): 2.53
+Challenge pass probability: 48.07%
+Step 1 avg time: 18.68 days (34.27 trades)
+Step 2 avg time: 25.77 days (47.29 trades)
+Max drawdown: 12.49%
+Total equity: $115294.10
+Total trades: 3000
+
+Track C - Time Optimized
+----------------------------------------------------------------------------------------
+Validation method: Walk-forward OOS
+Backtest period: 2018-02-22 14:52:59.537274 -> 2019-02-16 03:52:59.537274
+Walk-forward period: 2017-02-22 13:52:59.537274 -> 2026-02-20 12:52:59.537274
+Profit factor: 1.37
+Sharpe ratio (daily annualized): 2.06
+Challenge pass probability: 97.53%
+Step 1 avg time: 67.15 days (72.78 trades)
+Step 2 avg time: 99.19 days (107.51 trades)
+Max drawdown: 7.28%
+Total equity: $11793.48
+Total trades: 155
+
+Track D - Non-Canonical 0.54%
+----------------------------------------------------------------------------------------
+Validation method: Walk-forward OOS (pinned non-canonical snapshot)
+Backtest period: 2018-02-22 14:52:59.537274 -> 2021-02-05 04:52:59.537274
+Walk-forward period: 2017-02-22 13:52:59.537274 -> 2026-02-20 12:52:59.537274
+Profit factor: 1.83
+Sharpe ratio (daily annualized): 3.31
+Challenge pass probability: 82.07%
+Step 1 avg time: 29.04 days (32.69 trades)
+Step 2 avg time: 41.58 days (46.81 trades)
+Max drawdown: 11.11%
+Total equity: $27985.56
+Total trades: 519

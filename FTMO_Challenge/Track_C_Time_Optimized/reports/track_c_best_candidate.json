@@ -1,0 +1,35 @@
+{
+  "objective": "Minimize average time to pass Step 2 with Monte Carlo pass probability constraint",
+  "constraint_mc_pass_probability_pct": 95.0,
+  "window_config": {
+    "train_years": 2.0,
+    "test_days": 90,
+    "step_days": 90,
+    "max_folds": 4,
+    "actual_folds": 4,
+    "approx_oos_years": 0.9863013698630136
+  },
+  "step1_target_pct": 10.0,
+  "step2_target_pct": 15.0,
+  "selected": {
+    "fast": 12,
+    "slow": 20,
+    "sl_pct": 1.0,
+    "tp_pct": 3.0,
+    "risk_pct": 0.5
+  },
+  "fold_pass_rate_pct": 100.0,
+  "oos_return_pct": 17.934812834623767,
+  "oos_max_dd_pct": 8.394678267021598,
+  "oos_worst_daily_loss_pct": -1.0172686283069232,
+  "oos_profit_factor": 1.365411011086672,
+  "oos_trades": 155,
+  "mc_pass_probability_pct": 96.6,
+  "trades_per_day_estimate": 1.083916083916084,
+  "mc_step1_pass_probability_pct": 100.0,
+  "mc_step2_pass_probability_pct": 100.0,
+  "mc_step1_avg_trades_to_pass": 73.453,
+  "mc_step2_avg_trades_to_pass": 107.057,
+  "mc_step1_avg_days_to_pass": 67.76631612903226,
+  "mc_step2_avg_days_to_pass": 98.76871612903226
+}

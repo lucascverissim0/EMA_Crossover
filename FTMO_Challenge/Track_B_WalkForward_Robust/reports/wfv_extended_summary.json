@@ -1,0 +1,11 @@
+{
+  "total_folds": 8,
+  "oos_total_trades": 3000,
+  "oos_total_pnl": 105294.09837997174,
+  "oos_return_pct": 1052.9409837997173,
+  "oos_max_drawdown_pct": 12.154162081329698,
+  "oos_worst_daily_loss_pct": -5.58167453077357,
+  "oos_win_rate": 28.799999999999997,
+  "oos_profit_factor": 1.6905862303294574,
+  "oos_ftmo_pass": false
+}

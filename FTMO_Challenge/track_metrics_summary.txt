@@ -1,0 +1,62 @@
+FTMO TRACK METRICS SUMMARY
+========================================================================
+
+Track A - Capital Preservation
+========================================================================
+Period: 2016-02-23 15:52:59.537274 -> 2026-02-17 04:52:59.537274
+Total Trades: 2171
+Trading Days: 1836
+Trades/Day Avg: 1.18
+Trades/Day Median: 1.00
+Trades/Day Max: 4
+Trades/Day Min: 1
+Total P&L: $275147.31
+Return on Initial Capital: 2751.47%
+Win Rate: 26.44%
+Profit Factor: 1.90
+Sharpe Ratio (daily, annualized): 2.36
+Max Drawdown: 11.65%
+Expectancy per Trade: $126.74
+Median Trade P&L: $-200.00
+Average Win: $1012.51
+Median Win: $1408.00
+Largest Win: $1408.00
+Average Loss: $-191.63
+Median Loss: $-200.00
+Largest Loss: $-200.00
+Payoff Ratio: 5.28
+Best Day: $1883.43 (18.83%)
+Worst Day: $-800.00 (-8.00%)
+Average Hold Time: 10.75 hours
+Median Hold Time: 6.00 hours
+Max Hold Time: 65.00 hours
+
+Track B - Walk-Forward Robust
+========================================================================
+Period: 2018-02-22 14:52:59.537274 -> 2019-02-16 03:52:59.537274
+Total Trades: 155
+Trading Days: 143
+Trades/Day Avg: 1.08
+Trades/Day Median: 1.00
+Trades/Day Max: 2
+Trades/Day Min: 1
+Total P&L: $1793.48
+Return on Initial Capital: 17.93%
+Win Rate: 30.97%
+Profit Factor: 1.37
+Sharpe Ratio (daily, annualized): 2.06
+Max Drawdown: 7.28%
+Expectancy per Trade: $11.57
+Median Trade P&L: $-47.60
+Average Win: $139.62
+Median Win: $150.00
+Largest Win: $169.55
+Average Loss: $-45.87
+Median Loss: $-49.99
+Largest Loss: $-57.36
+Payoff Ratio: 3.04
+Best Day: $169.55 (1.70%)
+Worst Day: $-101.73 (-1.02%)
+Average Hold Time: 14.76 hours
+Median Hold Time: 13.00 hours
+Max Hold Time: 49.00 hours

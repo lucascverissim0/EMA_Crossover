@@ -31,3 +31,6 @@ env/
 .vscode/
 .idea/
 *.log
+.env.live
+*.env.live
+FTMO_LiveTrading/**/state/

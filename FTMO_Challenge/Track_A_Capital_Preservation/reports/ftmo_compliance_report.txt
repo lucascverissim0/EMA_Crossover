@@ -1,0 +1,38 @@
+======================================================================
+FTMO CHALLENGE COMPLIANCE REPORT
+======================================================================
+
+REQUIREMENTS STATUS
+----------------------------------------------------------------------
+
+1. Max Daily Loss: ✅ PASS
+   Requirement: Max -5% daily loss
+   Worst Day: -2.00%
+   Violations: 0 days
+
+2. Max Drawdown: ❌ FAIL
+   Requirement: Max 10% drawdown
+   Max Drawdown: 13.02%
+
+PERFORMANCE METRICS
+----------------------------------------------------------------------
+Total Trades: 2171
+Winning Trades: 574
+Losing Trades: 1597
+Win Rate: 26.44%
+Average Win: $1012.51
+Average Loss: $191.63
+Profit Factor: 1.90
+Trading Days: 2171
+
+RESULTS
+----------------------------------------------------------------------
+Total P&L: $275147.31
+Total Return: 2751.47%
+Final Capital: $285147.31
+
+OVERALL VERDICT
+----------------------------------------------------------------------
+❌ STRATEGY FAILS FTMO CHALLENGE REQUIREMENTS
+   → Issue: Exceeds 10% max drawdown limit
+======================================================================

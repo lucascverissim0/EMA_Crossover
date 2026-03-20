@@ -1,0 +1,34 @@
+{
+  "max_daily_loss": {
+    "requirement": "Max -5% daily loss",
+    "value": "-2.00%",
+    "pass": true,
+    "violations": 0
+  },
+  "max_drawdown": {
+    "requirement": "Max 10% drawdown",
+    "value": "13.02%",
+    "pass": false,
+    "max_dd_at_price": 8698.177776662917
+  },
+  "total_performance": {
+    "total_pnl": "$275147.31",
+    "total_return_percent": "2751.47%",
+    "final_capital": "$285147.31"
+  },
+  "additional_metrics": {
+    "total_trades": 2171,
+    "winning_trades": 574,
+    "losing_trades": 1597,
+    "win_rate": "26.44%",
+    "avg_win": "$1012.51",
+    "avg_loss": "$191.63",
+    "profit_factor": "1.90",
+    "traded_days": 2171
+  },
+  "overall": {
+    "passes_ftmo": false,
+    "daily_loss_pass": true,
+    "drawdown_pass": false
+  }
+}

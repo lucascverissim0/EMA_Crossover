@@ -1,0 +1,46 @@
+{
+  "objective": "Minimize average time to pass Step 2 with Monte Carlo pass probability constraint",
+  "constraint_mc_pass_probability_pct": 80.0,
+  "window_config": {
+    "train_years": 2.0,
+    "test_days": 90,
+    "step_days": 90,
+    "max_folds": 12,
+    "actual_folds": 12,
+    "approx_oos_years": 2.958904109589041
+  },
+  "step1_target_pct": 10.0,
+  "step2_target_pct": 15.0,
+  "selected": {
+    "fast": 12,
+    "slow": 20,
+    "sl_pct": 0.5,
+    "tp_pct": 3.0,
+    "risk_pct": 0.54
+  },
+  "fold_pass_rate_pct": 91.66666666666666,
+  "oos_return_pct": 179.85561673624048,
+  "oos_max_dd_pct": 10.748083014642633,
+  "oos_worst_daily_loss_pct": -1.602566900569433,
+  "oos_profit_factor": 1.8313913120245617,
+  "oos_trades": 519,
+  "mc_pass_probability_pct": 84.3,
+  "trades_per_day_estimate": 1.1258134490238612,
+  "mc_step1_pass_probability_pct": 100.0,
+  "mc_step2_pass_probability_pct": 100.0,
+  "mc_step1_avg_trades_to_pass": 32.189,
+  "mc_step2_avg_trades_to_pass": 46.264,
+  "mc_step1_avg_days_to_pass": 28.59177071290944,
+  "mc_step2_avg_days_to_pass": 41.09384200385357,
+  "track": "Track D - Non-Canonical 0.54%",
+  "canonical": false,
+  "status": "Pinned snapshot of Track C 0.54% candidate",
+  "source_track": "Track C - Time Optimized",
+  "source_mode": "frozen-track-d-snapshot",
+  "source_files": {
+    "frozen_summary_json": "/workspaces/EMA_Crossover_LongOnly/FTMO_Challenge/Track_D_NonCanonical_054/reports/track_d_source_track_c_best_candidate.json",
+    "frozen_trades_csv": "/workspaces/EMA_Crossover_LongOnly/FTMO_Challenge/Track_D_NonCanonical_054/reports/track_d_best_candidate_oos_trades.csv",
+    "frozen_rankings_csv": "/workspaces/EMA_Crossover_LongOnly/FTMO_Challenge/Track_D_NonCanonical_054/reports/track_d_source_candidate_rankings.csv"
+  },
+  "snapshot_generated_utc": "2026-03-20T12:49:35.392185+00:00"
+}

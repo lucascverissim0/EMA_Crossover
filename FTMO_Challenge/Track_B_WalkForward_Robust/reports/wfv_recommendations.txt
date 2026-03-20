@@ -1,0 +1,15 @@
+WALK-FORWARD PARAMETER RECOMMENDATIONS
+============================================================
+Folds evaluated: 12
+
+Most selected parameter sets across folds:
+- EMA(8/20), SL 0.5%, TP 5.0%, Risk 0.75% | selected 12 folds | avg OOS return 24.25% | avg OOS DD 9.52% | fold pass rate 66.7%
+
+Overall OOS summary:
+- OOS return: 291.03%
+- OOS max drawdown: 17.54%
+- OOS worst daily loss: -2.69%
+- OOS FTMO pass: NO
+- OOS Monte Carlo pass probability: 25.00%
+
+Use the most frequent top set as your default live candidate, then continue updating by fold.

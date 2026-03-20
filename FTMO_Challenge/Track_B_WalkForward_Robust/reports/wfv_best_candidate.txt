@@ -1,0 +1,16 @@
+WALK-FORWARD BEST CANDIDATE
+============================================================
+Window config: train=2.00y, test=90d, step=90d, max_folds=12, actual_folds=12, approx OOS span=2.96y
+Selected params: EMA(12/20), SL 1.0%, TP 3.0%, Risk 0.5%
+Fold pass rate: 100.00%
+OOS return: 63.17%
+OOS max drawdown: 8.39%
+OOS worst daily loss: -1.57%
+OOS profit factor: 1.40
+OOS trades: 518
+Monte Carlo pass probability: 87.10%
+Estimated trades/day: 1.10
+Step 1 pass probability (+10%): 100.00%
+Step 1 avg time to pass: 79.2 trades / 71.8 days
+Step 2 pass probability (+15%): 100.00%
+Step 2 avg time to pass: 116.3 trades / 105.6 days

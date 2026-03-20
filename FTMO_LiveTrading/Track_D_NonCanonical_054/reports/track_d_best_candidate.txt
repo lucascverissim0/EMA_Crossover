@@ -1,0 +1,21 @@
+TRACK D - NON-CANONICAL 0.54% SNAPSHOT
+============================================================
+Source: Track C current best-candidate artifact family
+Purpose: discretionary trading review without overwriting canonical Track C outputs
+Canonical: False
+Status: Pinned snapshot of Track C 0.54% candidate
+
+Selected params: EMA(12/20), SL 0.5%, TP 3.0%, Risk 0.54%
+Fold pass rate: 91.67%
+OOS return: 179.86%
+OOS max drawdown: 10.75%
+OOS worst daily loss: -1.60%
+OOS trades: 519
+Monte Carlo pass probability: 84.30%
+Step 1 avg days: 28.6
+Step 2 avg days: 41.1
+
+Interpretation:
+- Track D is intentionally non-canonical.
+- It preserves the faster 0.54% risk candidate for separate discretionary review.
+- It should not be confused with the strict Track C canonical path.

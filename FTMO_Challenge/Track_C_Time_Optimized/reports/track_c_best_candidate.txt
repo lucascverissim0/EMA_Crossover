@@ -1,0 +1,17 @@
+TRACK C - TIME TO PASS OPTIMIZATION
+============================================================
+Objective: Minimize average time to pass Step 2 with Monte Carlo pass probability constraint
+Constraint: MC pass probability >= 95.0%
+Window config: train=2.00y, test=90d, step=90d, max_folds=4, actual_folds=4, approx OOS span=0.99y
+Selected params: EMA(12/20), SL 1.0%, TP 3.0%, Risk 0.5%
+Fold pass rate: 100.00%
+OOS return: 17.93%
+OOS max drawdown: 8.39%
+OOS worst daily loss: -1.02%
+OOS trades: 155
+Monte Carlo pass probability: 96.60%
+Estimated trades/day: 1.08
+Step 1 pass probability (+10%): 100.00%
+Step 1 avg time to pass: 73.5 trades / 67.8 days
+Step 2 pass probability (+15%): 100.00%
+Step 2 avg time to pass: 107.1 trades / 98.8 days

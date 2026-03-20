@@ -1,0 +1,20 @@
+{
+  "folds": 12,
+  "oos_total_trades": 643,
+  "oos_total_pnl": 29102.76937106695,
+  "oos_return_pct": 291.0276937106695,
+  "oos_max_drawdown_pct": 17.53984024423645,
+  "oos_worst_daily_loss_pct": -2.6930863497237323,
+  "oos_win_rate": 25.816485225505442,
+  "oos_profit_factor": 1.7689085594826113,
+  "oos_ftmo_pass": false,
+  "mc_oos_pass_probability_pct": 25.0,
+  "window_config": {
+    "train_years": 2.0,
+    "test_days": 90,
+    "step_days": 90,
+    "max_folds": 12,
+    "actual_folds": 12,
+    "approx_oos_years": 2.958904109589041
+  }
+}

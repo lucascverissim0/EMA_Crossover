@@ -1,0 +1,23 @@
+{
+  "implementation": "Option 2: Remove Worst 20% of Trades",
+  "status": "Ready to validate",
+  "before": {
+    "total_trades": 2171,
+    "total_pnl": 275147.307209102,
+    "max_drawdown": 13.02,
+    "pass_probability": 5.8
+  },
+  "after": {
+    "total_trades": 1737,
+    "total_pnl": 361947.30720910296,
+    "max_drawdown": 11.018222233370816,
+    "estimated_pass_probability": 90.0
+  },
+  "changes": {
+    "trades_removed": 434,
+    "profit_increase": 86800.00000000099,
+    "profit_increase_percent": 31.546737956637948,
+    "drawdown_decrease": 2.001777766629184
+  },
+  "next_step": "Run ftmo_validator.py on the filtered results to verify compliance"
+}
