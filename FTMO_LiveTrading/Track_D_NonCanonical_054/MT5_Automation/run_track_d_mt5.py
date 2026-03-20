@@ -959,6 +959,27 @@ def format_bool_flag(value: Any) -> str:
     return "TRUE" if bool(value) else "FALSE"
 
 
+def compute_signal_age_text(run_utc: Any, signal_timestamp: Any) -> str:
+    if not run_utc or not signal_timestamp:
+        return "n/a"
+    try:
+        run_dt = datetime.fromisoformat(str(run_utc))
+        signal_dt = datetime.fromisoformat(str(signal_timestamp))
+        if run_dt.tzinfo is None:
+            run_dt = run_dt.replace(tzinfo=timezone.utc)
+        if signal_dt.tzinfo is None:
+            signal_dt = signal_dt.replace(tzinfo=timezone.utc)
+        delta_seconds = max(0.0, (run_dt - signal_dt).total_seconds())
+        delta_minutes = int(delta_seconds // 60)
+        if delta_minutes < 60:
+            return f"{delta_minutes}m"
+        delta_hours = delta_minutes // 60
+        rem_minutes = delta_minutes % 60
+        return f"{delta_hours}h {rem_minutes}m"
+    except Exception:
+        return "n/a"
+
+
 def format_result_for_telegram(result: dict[str, Any]) -> str:
     signal = result.get("signal", {})
     guard = result.get("guardrail", {})
@@ -970,6 +991,7 @@ def format_result_for_telegram(result: dict[str, Any]) -> str:
     error_text = result.get("error")
     signal = result.get("signal", {})
     recommendation = result.get("recommendation", {})
+    signal_age = compute_signal_age_text(result.get("run_utc"), signal.get("timestamp"))
 
     go_long = bool(recommendation.get("go_long", signal.get("buy_cross", False)))
     go_short = bool(recommendation.get("go_short", signal.get("sell_cross", False)))
@@ -1025,6 +1047,7 @@ def format_result_for_telegram(result: dict[str, Any]) -> str:
         f"SL_Price: {format_float(sl_price, 3)}",
         f"TP_Price: {format_float(tp_price, 3)}",
         f"Lot_Size: {format_float(lot_size, 2)}",
+        f"Signal age: {signal_age}",
         f"Bot status: {bot_status}",
         f"API status: {api_status} ({data_provider})",
         (
