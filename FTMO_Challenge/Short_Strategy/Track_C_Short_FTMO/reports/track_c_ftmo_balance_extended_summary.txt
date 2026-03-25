@@ -1,0 +1,29 @@
+Track C FTMO Balance Sweep - EXTENDED (0.8 to 4.0 multiplier)
+Looking for fastest pass time under FTMO 10% target / 10% total DD / 3% daily DD
+
+Tested multipliers: 0.80 to 4.00 (step 0.10)
+Total tested: 33 points
+Feasible under 10/10/3: 17 points
+
+=== FASTEST PATH (80%+ pass probability) ===
+  Risk multiplier: 2.40
+  Return %: 41.76
+  Final equity: $14175.94
+  Sharpe: 3.363
+  Max DD %: 9.95
+  Worst daily loss %: -1.42
+  MC pass probability: 85.30%
+  >>> MC median days to pass: 133 days <<<
+  Realized pass: YES (300.0 days)
+
+=== BEST BALANCE (overall trade-off) ===
+  Risk multiplier: 2.30
+  Return %: 40.02
+  Final equity: $14001.94
+  Sharpe: 3.359
+  Max DD %: 9.64
+  Worst daily loss %: -1.36
+  MC pass probability %: 86.30
+  MC median days to pass: 133
+  Realized pass: YES
+  Realized days to pass: 300.0

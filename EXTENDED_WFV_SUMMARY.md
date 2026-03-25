@@ -51,10 +51,10 @@ We delivered:
 ### Extended WFV Scripts (Ready to Use)
 ```bash
 # Track B - 1yr train / 2yr test validation
-python FTMO_Challenge/Track_B_WalkForward_Robust/scripts/walk_forward_extended_1y_2y.py
+python FTMO_Challenge/Long_Strategy/Track_B_WalkForward_Robust/scripts/walk_forward_extended_1y_2y.py
 
 # Track C - Same configuration for comparison  
-python FTMO_Challenge/Track_C_Time_Optimized/scripts/walk_forward_extended_1y_2y.py
+python FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/scripts/walk_forward_extended_1y_2y.py
 ```
 
 ### Detailed Analysis Reports
@@ -82,7 +82,7 @@ Extended validation reveals **regime changes** that 3-month windows miss:
 ### Testing:
 ```bash
 # After updating parameters, re-run:
-python FTMO_Challenge/Track_B_WalkForward_Robust/scripts/walk_forward_extended_1y_2y.py
+python FTMO_Challenge/Long_Strategy/Track_B_WalkForward_Robust/scripts/walk_forward_extended_1y_2y.py
 # Expected: Max DD < 10%, Worst Daily > -5% ✓
 ```
 

@@ -1,8 +1,18 @@
 # FTMO Challenge Workspace
 
-This folder is now organized into four named tracks.
+This folder is organized as a long/short research workspace.
 
-## Track Names
+## Strategy Containers
+
+1. `Long_Strategy`
+- Organizational container for long-only assets.
+- Long tracks and long reporting scripts now live in this folder.
+
+2. `Short_Strategy`
+- Root for short-side research tracks.
+- Includes `Track_A_Short_EMA` as the first short exploration track.
+
+## Existing Long Track Names (inside `Long_Strategy`)
 
 1. `Track_A_Capital_Preservation`
 - Legacy conservative workflow and earlier FTMO analysis assets.
@@ -30,48 +40,60 @@ This folder is now organized into four named tracks.
 Run from repo root:
 
 ```bash
-python FTMO_Challenge/Track_C_Time_Optimized/scripts/optimize_time_to_pass.py
-python FTMO_Challenge/Track_C_Time_Optimized/scripts/create_performance_dashboard.py
-python FTMO_Challenge/compare_all_strategies.py
+python FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/scripts/optimize_time_to_pass.py
+python FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/scripts/create_performance_dashboard.py
+python FTMO_Challenge/Long_Strategy/compare_all_strategies.py
 ```
+
+## Short Workflow (Track A)
+
+Run from repo root:
+
+```bash
+python FTMO_Challenge/Short_Strategy/Track_A_Short_EMA/scripts/optimize_short_ema_track_a.py
+python FTMO_Challenge/Short_Strategy/Track_A_Short_EMA/scripts/walk_forward_short_ema.py
+```
+
+The first command runs broad short EMA ranking with visuals.
+The second command runs walk-forward validation (default 5y train + 2y test per fold) plus Monte Carlo plausibility checks.
 
 Review outputs:
 
 - Reports:
-  - `FTMO_Challenge/Track_C_Time_Optimized/reports/track_c_best_candidate.txt`
-  - `FTMO_Challenge/Track_C_Time_Optimized/reports/track_c_best_candidate.json`
-  - `FTMO_Challenge/Track_C_Time_Optimized/reports/track_c_candidate_rankings.csv`
+  - `FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/reports/track_c_best_candidate.txt`
+  - `FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/reports/track_c_best_candidate.json`
+  - `FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/reports/track_c_candidate_rankings.csv`
 - Images:
-  - `FTMO_Challenge/Track_C_Time_Optimized/images/track_c_performance_dashboard.png`
-  - `FTMO_Challenge/Track_C_Time_Optimized/images/track_c_probable_path.png`
-  - `FTMO_Challenge/Track_C_Time_Optimized/images/track_c_trade_activity.png`
-  - `FTMO_Challenge/Track_C_Time_Optimized/images/track_c_monte_carlo.png`
+  - `FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/images/track_c_performance_dashboard.png`
+  - `FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/images/track_c_probable_path.png`
+  - `FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/images/track_c_trade_activity.png`
+  - `FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/images/track_c_monte_carlo.png`
 
 Track C also contains `wfv_extended_*` files from the separate `walk_forward_extended_1y_2y.py` validator. Treat those as extended stress-test outputs, not as the same artifact family as `track_c_best_candidate.*`.
 
 Track D outputs:
 
 - Reports:
-  - `FTMO_Challenge/Track_D_NonCanonical_054/reports/track_d_best_candidate.txt`
-  - `FTMO_Challenge/Track_D_NonCanonical_054/reports/track_d_best_candidate.json`
-  - `FTMO_Challenge/Track_D_NonCanonical_054/reports/track_d_best_candidate_oos_trades.csv`
+  - `FTMO_Challenge/Long_Strategy/Track_D_NonCanonical_054/reports/track_d_best_candidate.txt`
+  - `FTMO_Challenge/Long_Strategy/Track_D_NonCanonical_054/reports/track_d_best_candidate.json`
+  - `FTMO_Challenge/Long_Strategy/Track_D_NonCanonical_054/reports/track_d_best_candidate_oos_trades.csv`
 - Images:
-  - `FTMO_Challenge/Track_D_NonCanonical_054/images/track_d_probable_path.png`
-  - `FTMO_Challenge/Track_D_NonCanonical_054/images/track_d_trade_activity.png`
-  - `FTMO_Challenge/Track_D_NonCanonical_054/images/track_d_monte_carlo.png`
-  - `FTMO_Challenge/Track_D_NonCanonical_054/images/track_d_performance_dashboard.png`
+  - `FTMO_Challenge/Long_Strategy/Track_D_NonCanonical_054/images/track_d_probable_path.png`
+  - `FTMO_Challenge/Long_Strategy/Track_D_NonCanonical_054/images/track_d_trade_activity.png`
+  - `FTMO_Challenge/Long_Strategy/Track_D_NonCanonical_054/images/track_d_monte_carlo.png`
+  - `FTMO_Challenge/Long_Strategy/Track_D_NonCanonical_054/images/track_d_performance_dashboard.png`
 
 Comparison outputs:
 
-- `FTMO_Challenge/strategy_comparison_dashboard.png`
-- `FTMO_Challenge/strategy_comparison_summary.txt`
-- `FTMO_Challenge/strategy_comparison_summary.json`
+- `FTMO_Challenge/Long_Strategy/strategy_comparison_dashboard.png`
+- `FTMO_Challenge/Long_Strategy/strategy_comparison_summary.txt`
+- `FTMO_Challenge/Long_Strategy/strategy_comparison_summary.json`
 
 MT5 automation:
 
-- `FTMO_Challenge/MT5_Automation/README.md`
-- `FTMO_Challenge/MT5_Automation/config.example.json`
-- `FTMO_Challenge/MT5_Automation/run_track_d_mt5.py`
+- `FTMO_Challenge/Long_Strategy/MT5_Automation/README.md`
+- `FTMO_Challenge/Long_Strategy/MT5_Automation/config.example.json`
+- `FTMO_Challenge/Long_Strategy/MT5_Automation/run_track_d_mt5.py`
 
 ## Current FTMO Answer (Track C)
 
@@ -93,4 +115,4 @@ From `Track_C_Time_Optimized/reports/track_c_best_candidate.txt`:
 
 ## MT5 Challenge Automation
 
-If you intend to execute the faster Track D profile on an FTMO challenge through MT5, start in dry-run mode with the runner in `FTMO_Challenge/MT5_Automation/` and only enable live order sending after validating symbol mapping, lot sizing, and FTMO guardrail handling.
+If you intend to execute the faster Track D profile on an FTMO challenge through MT5, start in dry-run mode with the runner in `FTMO_Challenge/Long_Strategy/MT5_Automation/` and only enable live order sending after validating symbol mapping, lot sizing, and FTMO guardrail handling.

@@ -19,14 +19,14 @@ Canonical Track C metrics:
 ### 1. Use Track C for FTMO decisions
 
 Primary files:
-- `FTMO_Challenge/Track_C_Time_Optimized/reports/track_c_best_candidate.txt`
-- `FTMO_Challenge/Track_C_Time_Optimized/reports/track_c_best_candidate.json`
-- `FTMO_Challenge/Track_C_Time_Optimized/images/track_c_performance_dashboard.png`
+- `FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/reports/track_c_best_candidate.txt`
+- `FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/reports/track_c_best_candidate.json`
+- `FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/images/track_c_performance_dashboard.png`
 
 ### 2. Compare Track C and Track D visually
 
 Open:
-- `FTMO_Challenge/strategy_comparison_dashboard.png`
+- `FTMO_Challenge/Long_Strategy/strategy_comparison_dashboard.png`
 
 Use it to compare:
 - pass probability
@@ -55,16 +55,16 @@ Use it only when you intentionally want to inspect the faster 0.54% snapshot sep
 From repo root:
 
 ```bash
-python FTMO_Challenge/Track_C_Time_Optimized/scripts/optimize_time_to_pass.py
-python FTMO_Challenge/Track_C_Time_Optimized/scripts/create_performance_dashboard.py
-python FTMO_Challenge/Track_D_NonCanonical_054/scripts/build_track_d_snapshot.py
-python FTMO_Challenge/compare_all_strategies.py
+python FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/scripts/optimize_time_to_pass.py
+python FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/scripts/create_performance_dashboard.py
+python FTMO_Challenge/Long_Strategy/Track_D_NonCanonical_054/scripts/build_track_d_snapshot.py
+python FTMO_Challenge/Long_Strategy/compare_all_strategies.py
 ```
 
 ## Reference Files
 
 1. `FTMO_Challenge/README.md`
 2. `FTMO_Challenge/TRACKS_OVERVIEW.md`
-3. `FTMO_Challenge/Track_C_Time_Optimized/README.md`
-4. `FTMO_Challenge/Track_D_NonCanonical_054/README.md`
-5. `FTMO_Challenge/strategy_comparison_summary.txt`
+3. `FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/README.md`
+4. `FTMO_Challenge/Long_Strategy/Track_D_NonCanonical_054/README.md`
+5. `FTMO_Challenge/Long_Strategy/strategy_comparison_summary.txt`

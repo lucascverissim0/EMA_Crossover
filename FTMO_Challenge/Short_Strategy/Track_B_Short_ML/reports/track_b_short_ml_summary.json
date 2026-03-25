@@ -1,0 +1,31 @@
+{
+  "train_years": 4.0,
+  "test_years": 3.0,
+  "step_years": 1.0,
+  "horizon_years_per_fold": 7.0,
+  "folds": 1,
+  "fold_pass_rate_pct": 100.0,
+  "selected": {
+    "fast": 10,
+    "slow": 30,
+    "sl_pct": 0.5,
+    "tp_pct": 2.0,
+    "risk_pct": 0.5
+  },
+  "oos_trades": 73,
+  "oos_sharpe_daily_annualized": 3.288820274804933,
+  "oos_return_pct": 17.399736734579243,
+  "oos_max_drawdown_pct": 4.912527819628753,
+  "oos_worst_daily_loss_pct": -0.5926172324159765,
+  "oos_profit_factor": 1.6283362756511275,
+  "oos_ftmo_pass": true,
+  "candidate_count": 482,
+  "accept_count": 73,
+  "accept_rate_pct": 15.145228215767634,
+  "ml_filter_folds": 1,
+  "no_filter_folds": 0,
+  "quick_grid": true,
+  "mc_paths": 300,
+  "mc_profitability_probability_pct": 97.33333333333334,
+  "mc_median_return_pct": 17.685930178094033
+}

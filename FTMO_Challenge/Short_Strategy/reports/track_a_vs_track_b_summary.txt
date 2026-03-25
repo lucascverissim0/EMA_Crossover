@@ -1,0 +1,31 @@
+Track A vs Track B ML Comparison
+
+Winner by Sharpe: Track B ML
+
+Track A:
+  Sharpe: 1.479
+  Return %: 46.36
+  Max DD %: 9.59
+  MC Profitability %: 94.67
+  OOS trades: 474
+  FTMO realized pass: YES
+  FTMO realized days to pass: 170
+  FTMO MC pass probability %: 81.25
+  FTMO MC median days to pass: 105
+
+Track B ML:
+  Sharpe: 3.289
+  Return %: 17.40
+  Max DD %: 4.91
+  MC Profitability %: 97.33
+  OOS trades: 73
+  FTMO realized pass: YES
+  FTMO realized days to pass: 449
+  FTMO MC pass probability %: 85.10
+  FTMO MC median days to pass: 402
+
+FTMO constraints used:
+  Target profit: 10%
+  Max total drawdown: 10%
+  Max daily drawdown: 3%
+  Floating included approximation: trade-resolution only (no intrabar ticks)

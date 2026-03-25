@@ -1,0 +1,26 @@
+Track C Short FTMO - Walk-Forward Summary
+
+Data: /workspaces/EMA_Crossover_LongOnly/data/XAUUSD_1h_sample.csv
+Train/Test/Step (years): 4.0/3.0/1.0
+Horizon per fold: 7.0 years
+Folds: 1
+Fold FTMO pass rate: 100.00%
+
+Selected params: EMA(10/30), SL 0.5%, TP 2.0%, Risk 0.5%
+OOS candidates: 482
+OOS accepted trades: 73 (15.15%)
+Fold filter modes: ML=1 | No-filter=0
+OOS Sharpe: 3.289
+OOS return: 17.40%
+OOS max drawdown: 4.91%
+OOS worst daily loss: -0.59%
+OOS profit factor: 1.63
+OOS FTMO pass: YES
+FTMO realized pass (10/10/3): YES
+FTMO realized days to pass: 449
+FTMO MC pass probability: 86.30%
+FTMO MC median days to pass: 400
+
+Monte Carlo paths: 300
+MC profitability probability: 97.33%
+MC median return: 17.69%

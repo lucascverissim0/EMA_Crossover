@@ -1,0 +1,20 @@
+Track A Short - Walk-Forward Summary
+
+Data: /workspaces/EMA_Crossover_LongOnly/data/XAUUSD_1h_sample.csv
+Train/Test/Step (years): 4.0/3.0/1.0
+Horizon per fold: 7.0 years
+Folds: 1
+Fold FTMO pass rate: 100.00%
+
+Selected params: EMA(12/26), SL 0.5%, TP 1.5%, Risk 0.5%
+OOS trades: 474
+OOS Sharpe: 1.479
+OOS return: 46.36%
+OOS max drawdown: 9.59%
+OOS worst daily loss: -1.57%
+OOS profit factor: 1.21
+OOS FTMO pass: YES
+
+Monte Carlo paths: 300
+MC profitability probability: 94.67%
+MC median return: 44.93%

@@ -1,0 +1,18 @@
+Track A Short - Best Candidate
+
+EMA: 12/30
+SL: 0.5%
+TP: 1.5%
+Risk: 0.5%
+
+Sharpe (daily annualized): 3.6577
+Return: 11.38%
+Max drawdown: 4.41%
+Worst daily loss: -1.13%
+Profit factor: 1.73
+Win rate: 36.96%
+Trades: 46
+Trades/day: 0.44
+Expectancy/trade: $24.73
+Total PnL: $1137.61
+Score: 150.46

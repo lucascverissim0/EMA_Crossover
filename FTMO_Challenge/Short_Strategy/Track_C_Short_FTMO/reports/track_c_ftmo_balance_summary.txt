@@ -1,0 +1,16 @@
+Track C FTMO Balance Sweep (10% target / 10% total DD / 3% daily DD)
+
+Tested multipliers: 0.80 to 2.00 (step 0.05)
+Feasible points under 10/10/3: 25 / 25
+
+Best balance point:
+  Risk multiplier: 2.00
+  Return %: 34.80
+  Final equity: 13479.95
+  Sharpe: 3.346
+  Max DD %: 8.68
+  Worst daily loss %: -1.19
+  Realized pass: YES
+  Realized days to pass: 300
+  MC pass probability %: 89.20
+  MC median days to pass: 168

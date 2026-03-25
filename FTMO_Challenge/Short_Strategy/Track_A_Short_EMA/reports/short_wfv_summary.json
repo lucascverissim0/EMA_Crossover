@@ -1,0 +1,26 @@
+{
+  "train_years": 4.0,
+  "test_years": 3.0,
+  "step_years": 1.0,
+  "horizon_years_per_fold": 7.0,
+  "folds": 1,
+  "fold_pass_rate_pct": 100.0,
+  "selected": {
+    "fast": 12,
+    "slow": 26,
+    "sl_pct": 0.5,
+    "tp_pct": 1.5,
+    "risk_pct": 0.5
+  },
+  "oos_trades": 474,
+  "oos_sharpe_daily_annualized": 1.4792476751077932,
+  "oos_return_pct": 46.35741027820562,
+  "oos_max_drawdown_pct": 9.592855386559444,
+  "oos_worst_daily_loss_pct": -1.5673624772734807,
+  "oos_profit_factor": 1.2139512744105343,
+  "oos_ftmo_pass": true,
+  "quick_grid": true,
+  "mc_paths": 300,
+  "mc_profitability_probability_pct": 94.66666666666667,
+  "mc_median_return_pct": 44.92946359200614
+}

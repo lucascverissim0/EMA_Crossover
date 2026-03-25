@@ -1,0 +1,75 @@
+{
+  "track_a": {
+    "oos_sharpe_daily_annualized": 1.4792476751077932,
+    "oos_return_pct": 46.35741027820562,
+    "oos_max_drawdown_pct": 9.592855386559444,
+    "mc_profitability_probability_pct": 94.66666666666667,
+    "oos_trades": 474
+  },
+  "track_b_ml": {
+    "oos_sharpe_daily_annualized": 3.288820274804933,
+    "oos_return_pct": 17.399736734579243,
+    "oos_max_drawdown_pct": 4.912527819628753,
+    "mc_profitability_probability_pct": 97.33333333333334,
+    "oos_trades": 73
+  },
+  "track_c_ftmo": {
+    "oos_sharpe_daily_annualized": 3.363480583346497,
+    "oos_return_pct": 41.75936816299017,
+    "oos_max_drawdown_pct": 9.950750019783207,
+    "mc_profitability_probability_pct": 85.3,
+    "oos_trades": 73,
+    "applied_risk_multiplier": 2.4
+  },
+  "ftmo_constraints": {
+    "target_profit_pct": 10.0,
+    "max_total_drawdown_pct": 10.0,
+    "max_daily_drawdown_pct": 3.0,
+    "floating_included_note": "Approximated at trade-resolution from exit-sequenced equity; intrabar ticks are not available."
+  },
+  "ftmo_results": {
+    "track_a": {
+      "realized": {
+        "pass": true,
+        "passed_in_days": 170,
+        "failure_reason": null
+      },
+      "monte_carlo": {
+        "paths": 2000,
+        "pass_probability_pct": 81.25,
+        "median_days_to_pass": 105,
+        "p10_days_to_pass": 41,
+        "p90_days_to_pass": 332
+      }
+    },
+    "track_b_ml": {
+      "realized": {
+        "pass": true,
+        "passed_in_days": 449,
+        "failure_reason": null
+      },
+      "monte_carlo": {
+        "paths": 2000,
+        "pass_probability_pct": 85.1,
+        "median_days_to_pass": 402,
+        "p10_days_to_pass": 168,
+        "p90_days_to_pass": 846
+      }
+    },
+    "track_c_ftmo": {
+      "realized": {
+        "pass": true,
+        "passed_in_days": 300,
+        "failure_reason": null
+      },
+      "monte_carlo": {
+        "paths": 2000,
+        "pass_probability_pct": 85.3,
+        "median_days_to_pass": 133,
+        "p10_days_to_pass": 41,
+        "p90_days_to_pass": 401
+      }
+    }
+  },
+  "winner_by_sharpe": "Track C FTMO"
+}

@@ -15,7 +15,7 @@ Current canonical candidate:
 - Monte Carlo pass probability: 96.60%
 
 Source:
-- `FTMO_Challenge/Track_C_Time_Optimized/reports/track_c_best_candidate.txt`
+- `FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/reports/track_c_best_candidate.txt`
 
 ## Track Roles
 
@@ -28,25 +28,25 @@ Source:
 From repo root:
 
 ```bash
-python FTMO_Challenge/Track_C_Time_Optimized/scripts/optimize_time_to_pass.py
-python FTMO_Challenge/Track_C_Time_Optimized/scripts/create_performance_dashboard.py
-python FTMO_Challenge/compare_all_strategies.py
+python FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/scripts/optimize_time_to_pass.py
+python FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/scripts/create_performance_dashboard.py
+python FTMO_Challenge/Long_Strategy/compare_all_strategies.py
 ```
 
 For MT5 execution of the faster Track D profile, see:
-- `FTMO_Challenge/MT5_Automation/README.md`
-- `FTMO_Challenge/MT5_Automation/run_track_d_mt5.py`
+- `FTMO_Challenge/Long_Strategy/MT5_Automation/README.md`
+- `FTMO_Challenge/Long_Strategy/MT5_Automation/run_track_d_mt5.py`
 
 ## What To Open First
 
-1. `FTMO_Challenge/Track_C_Time_Optimized/reports/track_c_best_candidate.txt`
-2. `FTMO_Challenge/Track_C_Time_Optimized/images/track_c_performance_dashboard.png`
-3. `FTMO_Challenge/strategy_comparison_dashboard.png`
-4. `FTMO_Challenge/Track_D_NonCanonical_054/reports/track_d_best_candidate.txt`
+1. `FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/reports/track_c_best_candidate.txt`
+2. `FTMO_Challenge/Long_Strategy/Track_C_Time_Optimized/images/track_c_performance_dashboard.png`
+3. `FTMO_Challenge/Long_Strategy/strategy_comparison_dashboard.png`
+4. `FTMO_Challenge/Long_Strategy/Track_D_NonCanonical_054/reports/track_d_best_candidate.txt`
 
 ## What The Comparison Dashboard Now Shows
 
-`FTMO_Challenge/strategy_comparison_dashboard.png` includes:
+`FTMO_Challenge/Long_Strategy/strategy_comparison_dashboard.png` includes:
 - Track A historical baseline
 - Track B robustness reference
 - Track C canonical FTMO answer

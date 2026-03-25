@@ -1,6 +1,21 @@
 # FTMO Challenge Tracks Overview
 
-This directory is organized into four named tracks:
+This directory is organized into long/short strategy containers plus existing long tracks.
+
+## Strategy Containers
+
+## 0) Long_Strategy
+- Purpose: organizational root for long-only assets and future migration.
+- Status: active container.
+
+## 0b) Short_Strategy
+- Purpose: root for short-side exploration.
+- Status: active container.
+- Current short track:
+  - `Track_A_Short_EMA/` with `scripts/`, `reports/`, and `images/`.
+  - Includes `walk_forward_short_ema.py` for 7-year horizon per fold validation and Monte Carlo.
+
+## Existing Long Tracks (inside `Long_Strategy`)
 
 ## 1) Track_A_Capital_Preservation
 - Purpose: legacy conservative analysis and historical comparison.

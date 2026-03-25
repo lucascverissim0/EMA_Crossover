@@ -1,0 +1,31 @@
+{
+  "constraints": {
+    "target_profit_pct": 10.0,
+    "max_total_dd_pct": 10.0,
+    "max_daily_dd_pct": 3.0,
+    "mc_paths": 2000
+  },
+  "sweep": {
+    "min_multiplier": 0.8,
+    "max_multiplier": 2.0,
+    "step": 0.05,
+    "tested_points": 25,
+    "feasible_points": 25
+  },
+  "best_balance": {
+    "risk_multiplier": 2.0,
+    "return_pct": 34.7994734691585,
+    "max_drawdown_pct": 8.679147643679581,
+    "worst_daily_loss_pct": -1.1852344648319537,
+    "sharpe_daily_annualized": 3.3458736104983586,
+    "final_equity": 13479.947346915851,
+    "trades": 73,
+    "feasible_10_10_3": true,
+    "realized_pass": true,
+    "realized_days_to_pass": 300,
+    "realized_failure_reason": null,
+    "mc_pass_prob_pct": 89.2,
+    "mc_median_days_to_pass": 168,
+    "score": 98.14859983823621
+  }
+}

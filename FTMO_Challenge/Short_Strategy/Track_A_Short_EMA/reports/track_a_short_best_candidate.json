@@ -1,0 +1,18 @@
+{
+  "fast": 12.0,
+  "slow": 30.0,
+  "stop_loss_pct": 0.5,
+  "take_profit_pct": 1.5,
+  "risk_pct": 0.5,
+  "score": 150.45816122303984,
+  "total_trades": 46.0,
+  "win_rate": 36.95652173913043,
+  "return_pct": 11.376113723057879,
+  "max_drawdown_pct": 4.4110421642439395,
+  "worst_daily_loss_pct": -1.1281455976952295,
+  "profit_factor": 1.7348693817524123,
+  "expectancy": 24.730682006647562,
+  "trades_per_day": 0.4380952380952381,
+  "sharpe_daily_annualized": 3.65770060404012,
+  "total_pnl": 1137.6113723057879
+}
